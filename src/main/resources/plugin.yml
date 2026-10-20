@@ -1,0 +1,15 @@
+name: WorthLore
+main: me.worthlore.WorthPlugin
+version: 1.0.0
+api-version: '1.20'
+depend: [ProtocolLib]
+commands:
+  worthreload:
+    description: Reload prices.yml
+    permission: worthlore.reload
+  worthdebug:
+    description: Toggle debug logging
+    permission: worthlore.reload
+permissions:
+  worthlore.reload:
+    default: op
